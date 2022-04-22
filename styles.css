@@ -1,0 +1,42 @@
+ul {
+  list-style: none;
+}
+
+a {
+  color: #252b42;
+  text-decoration: none;
+}
+
+.top {
+  background: url('background.jpg');
+}
+
+.top-container {
+  /* display: flex; */
+}
+
+.top-header {
+  display: flex;
+  align-items: center;
+  padding: 36px 0;
+}
+
+.top-header__logo {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #252b42;
+}
+
+.top-header__nav {
+  margin-left: 132px;
+}
+
+.top-nav {
+  margin: 0;
+  display: flex;
+}
+
+.top-nav__item + .top-nav__item {
+  margin-left: 21px;
+}

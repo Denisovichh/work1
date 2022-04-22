@@ -1,0 +1,167 @@
+*,
+*  ::before,
+* ::after{
+   padding: 0;
+   margin: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+a {
+   text-decoration: none;
+
+}
+ul,
+ol,li {
+   list-style: none;
+}
+img { 
+   vertical-align: top;
+
+}
+h1,
+h2,
+h3,
+h4, 
+h5,
+h6
+    { 
+   font-weight: inherit;
+   font-size: inherit;
+}
+body{ 
+   height: 100%;
+   font-family: 'Montserrat';
+   font-size: 14px;
+   color: black;
+   
+   
+ }
+
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   background: url('background.jpg');
+   
+} 
+
+._container {
+   max-width: 1046px;
+   margin: 0px auto;
+   padding: 0px 15px;
+   box-sizing: border-box;
+
+
+}
+/*------------------------ шапка -------------------------- */
+.header {
+   color: black;
+   width: 100%;
+   z-index: 50;
+   align-items: center;
+   
+}
+.header_container {
+   color: black;
+   display: flex;
+   min-height: 104px;
+   align-items: center;
+  
+}
+
+.header_logo{
+ 
+   font-size: 24px;
+   font-weight: 700;
+   color: inherit;
+   
+    
+   
+
+}
+.heder_menu{
+   color: #000;
+   margin: 0px 0px 0px 133px;
+   line-height: 171%;
+   color: inherit;
+}
+@MEDIA (max-wigth: 992px){
+   .heder_menu{
+   margin: 0px 0px 0px 80px;}
+}
+@MEDIA (max-wigth: 767px) {
+   .heder_menu{  margin: 0px 0px 0px 80px;}
+ }
+ @MEDIA (max-wigth: 479px) {
+   .heder_menu{  margin: 0px 0px 0px 40px;}
+ }
+
+
+.menu {;
+   color: inherit;
+}
+.menu_list{
+   flex-wrap: wrap;
+   color:#000;
+   display: flex;
+
+
+
+}
+.menu_item{ 
+   color: #737373;
+   margin: 0px 0px 0px 21px;
+}
+
+.menu-link{
+   color: #737373;
+   line-height: 171%;
+   font-weight: 600;
+   color: inherit;
+} 
+@MEDIA (max-wigth: 479px) {
+   .menu_link{  font-size: 18px;}
+ } 
+ /*-------------main ------------------------      */
+.page{
+   flex: 1 1 auto;
+
+}
+/*------------------подвал--------------   */
+.foeter{ }
+
+
+/*------------------main_Block-----------   */
+.page_main-block{
+
+}
+.main-block{
+   
+
+}
+.main-block__container {
+
+}
+._container{
+
+}
+.main-block_body{
+
+   
+}
+.main-block_title{
+   margin-top: 100px;
+}
+.main-block__buttons{
+   
+  
+}
+.main-block__button {
+   
+}
+
+.main-block__button_border{
+
+}
+
